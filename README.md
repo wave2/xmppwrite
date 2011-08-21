@@ -1,7 +1,7 @@
 XMPPWrite
 ==============
 
-A lightweight xmpp client designed for use with monitoring software.
+A lightweight XMPP client designed for use with monitoring software.
 
 Requirements
 ------------

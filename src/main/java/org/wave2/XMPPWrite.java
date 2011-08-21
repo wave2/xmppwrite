@@ -78,7 +78,7 @@ public class XMPPWrite {
     }
 
     /**
-     * Default constructor for MySQLInstance.
+     * Default constructor for XMPPWrite.
      */
     public XMPPWrite() {
         loadProperties();
@@ -87,7 +87,7 @@ public class XMPPWrite {
     /**
      * Get XMPPWrite version
      *
-     * @return MySQLInstance version
+     * @return XMPPWrite version
      */
     public String getVersion() {
         return properties.getProperty("application.version");
