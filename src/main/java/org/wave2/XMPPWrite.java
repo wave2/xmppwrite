@@ -148,14 +148,14 @@ public class XMPPWrite {
 
             Message message;
 
-            Chat chat = chatmanager.createChat(args[0], new MessageListener() {
+            Chat chat = chatmanager.createChat(arguments.get(0), new MessageListener() {
 
                 public void processMessage(Chat chat, Message message) {
                     //System.out.println("Received message: " + message);
                 }
                 
             });
-            chat.sendMessage(args[1]);
+            chat.sendMessage(arguments.get(1));
         }
         catch (XMPPException e) {
             System.out.println(e.getMessage());
