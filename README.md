@@ -9,6 +9,11 @@ Requirements
 * Java 1.7 (or above)
 * Maven 3
 
+Building
+--------
+
+mvn assembly:single
+
 Contributing
 ------------
 
@@ -34,7 +39,7 @@ Please do! Go on, don't be shy.
 License
 -------
 
-Copyright &copy; 2011-2012 Wave2 Limited. All rights reserved. Licensed under [BSD License].
+Copyright &copy; 2011-2014 Wave2 Limited. All rights reserved. Licensed under [BSD License].
 
 [BSD License]: https://github.com/wave2/xmppwrite/raw/master/LICENSE
 [Fork]: http://help.github.com/fork-a-repo
